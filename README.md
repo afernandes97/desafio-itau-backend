@@ -146,7 +146,7 @@ Vou dar continuidade no desenvolvimento de alguns modulos conforme abaixo:
 
 1. **Testes automatizados:** Desenvolvi os testes SOMENTE para camada de USE CASE, onde está a regra de negócio
 2. **Containerização:** Tentei seguir um padrão de desenvolvimento seguindo conceitos do SOLID e CLEAN CODE, em estudo essa arquitetura está se mostrando satisfatoria para mim em: organização, agilidade, código limpo e boa leitura
-3. **Logs:** Implementação em breve
+3. **Logs:** Logger nativo do NestJS (talvez mudarei de abordagem futuramente)
 4. **Observabilidade:** Criado health check e memory utilizando o nest terminus
 5. **Performance:** Utilizando o built-in Interceptor para medir tempo de resposta
 6. **Tratamento de Erros:** Tentei seguir o tratamento de erro na camada de USE CASE, trazendo para controller expor.
