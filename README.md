@@ -135,3 +135,21 @@ Vamos propôr a seguir alguns desafios extras caso você queira testar seus conh
 7. **Documentação da API:** Você consegue documentar sua API? Existem [ferramentas](https://swagger.io/) e [padrões](http://raml.org/) que podem te ajudar com isso!
 8. **Documentação do Sistema:** Sua aplicação provavelmente precisa ser construída antes de ser executada. Você consegue documentar como outra pessoa que pegou sua aplicação pela primeira vez pode construir e executar sua aplicação?
 9. **Configurações:** Você consegue deixar sua aplicação configurável em relação a quantidade de segundos para calcular as estatísticas? Por exemplo: o padrão é 60 segundos, mas e se o usuário quiser 120 segundos?
+
+## 4. Resolução do problema
+
+Em desenvolvimento, tentei seguir conceitos que venho estudando e aplicando em ESTUDOS, obviamente seguir as mesmas regras impostas para uma aplicação spring boot em node com nest tem suas diferenças, mas tentei abstrair conceitos que facilitam a leitura do codigo e arquitetura.
+Tentei trazer cada responsabilidade em sua respectiva camada e dentro de seu proprio escopo, de maneira que para dar continuidade ou manutenção no código seja de maneira simples. Deixei criada a camada de repository para caso necessidade em evolução dos estudos.
+A ideia inicial era trazer as regras de estatiscas para o modulo de dashboard, mas como a proposta do desafio é não ter implementação de banco de dados, decidi continuar no mesmo modulo e serviço para facilidade em manipular o mesmo array.
+
+Vou dar continuidade no desenvolvimento de alguns modulos conforme abaixo:
+
+1. **Testes automatizados:** Desenvolvi os testes SOMENTE para camada de USE CASE, onde está a regra de negócio
+2. **Containerização:** Tentei seguir um padrão de desenvolvimento seguindo conceitos do SOLID e CLEAN CODE, em estudo essa arquitetura está se mostrando satisfatoria para mim em: organização, agilidade, código limpo e boa leitura
+3. **Logs:** Implementação em breve
+4. **Observabilidade:** Implementação em breve
+5. **Performance:** Implementação em breve
+6. **Tratamento de Erros:** Tentei seguir o tratamento de erro na camada de USE CASE, trazendo para controller expor.
+7. **Documentação da API:** Implementação em breve
+8. **Documentação do Sistema:** Implementação em breve
+9. **Configurações:** Implementação em breve
