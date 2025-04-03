@@ -153,3 +153,9 @@ Vou dar continuidade no desenvolvimento de alguns modulos conforme abaixo:
 7. **Documentação da API:** Implementação em breve
 8. **Documentação do Sistema:** Implementação em breve
 9. **Configurações:** Implementação em breve
+
+## 4. Workflow
+
+Segui o desenvolvimento baseado em workflow com features, fix etc.. não criei uma branch develop, segui o flow de merge onde a feature entra em desenvolvimento até a finalização e merge na main.
+
+![alt text](gitworkflow.png)
